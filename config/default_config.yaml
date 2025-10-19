@@ -1,0 +1,60 @@
+# Default configuration for Quantum Consciousness Research Framework
+
+# General framework settings
+parallel_processing: true
+max_workers: 4
+cache_results: true
+cache_directory: "./cache"
+log_level: "INFO"
+random_seed: 42
+save_intermediate_results: true
+output_format: "hdf5"  # "hdf5", "pickle", "json"
+compression: true
+
+# Integrated Information Theory (IIT) configuration
+iit:
+  phi_threshold: 0.1
+  max_system_size: 10
+  perturbation_strength: 0.1
+  integration_steps: 1000
+  use_gaussian_perturbation: true
+  calculate_phi_max: true
+
+# AI Consciousness Detection configuration
+ai_consciousness:
+  digital_phi_resolution: 100
+  perturbational_complexity_steps: 500
+  consciousness_threshold: 0.5
+  feature_extraction_method: "auto"
+  use_attention_mechanisms: true
+  temporal_integration_window: 10
+
+# Biological measurement configuration
+biological:
+  eeg_sampling_rate: 250
+  eeg_filter_low: 0.5
+  eeg_filter_high: 45.0
+  fmri_tr: 2.0
+  fmri_smoothing_kernel: 6.0
+  pci_perturbation_intensity: 100.0
+  connectivity_method: "pearson"
+
+# Quantum-theological analysis configuration
+quantum_theological:
+  quantum_coherence_threshold: 0.7
+  theological_interpretation_depth: 3
+  consciousness_emergence_model: "orchestrated_objective_reduction"
+  quantum_information_integration: true
+  microtubule_modeling: false
+
+# Analytical engines configuration
+analytical:
+  bayesian_mcmc_samples: 5000
+  bayesian_burnin: 1000
+  causal_discovery_method: "pc"
+  causal_significance_threshold: 0.05
+  network_analysis_metrics:
+    - "clustering"
+    - "efficiency" 
+    - "modularity"
+    - "small_world"
